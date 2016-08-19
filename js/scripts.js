@@ -20,8 +20,6 @@ var pingPong = (function(input){
   return numbersArray;
 });
 
-
-
 // User Interface
 $(document).ready(function() {
   $("form").submit(function(event) {
