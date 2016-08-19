@@ -1,6 +1,9 @@
 // Business logic
 var pingPong = (function(input){
   var numbersArray = [];
+  if (isNaN(input)) {
+    alert("It only works if you enter a number!")
+  }
   for (var count = 1; count<=input; count++) {
     if (count % 3 === 0 && count % 5 === 0) {
       numbersArray.push("ping-pong");
